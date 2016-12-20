@@ -30,16 +30,28 @@ public class DivideNumbers {
                 }
             }
 
-            int sign_dividend = Integer.MIN_VALUE & dividend;
-            int sign_divisor = Integer.MIN_VALUE & divisor;
             int res = 0;
+            int sign = Integer.MIN_VALUE & ( dividend ^ divisor );
 
-            if (sign_dividend !=0) {
+            if (dividend < 0) {
                 dividend = ~dividend + 1;
             }
 
-            if (sign_divisor !=0) {
+            if (divisor < 0) {
                 divisor = ~divisor + 1;
+            }
+
+            if ( (divisor & 1) == 0 && divisor !=0 ){
+                System.out.println("power of two");
+                res = 1;
+                while ((divisor & 1) == 0 && divisor !=0 ) {
+                    res <<= 1;
+                    divisor >>= 1;
+                    dividend >>= 1;
+                }
+                if ( divisor == 0 ) {
+                    return sign == 0 ? dividend : ~dividend - 1;
+                }
             }
 
             if (divisor > dividend) {
@@ -67,11 +79,8 @@ public class DivideNumbers {
 //                    " ((sign_dividend ^ sign_divisor) & Integer.MIN_VALUE)=" +
 //                            Integer.toBinaryString(((sign_dividend ^ sign_divisor) & Integer.MIN_VALUE)));
 
-            if ( ((sign_dividend ^ sign_divisor) & Integer.MIN_VALUE) !=0 ){
-                res = ~res+1;
-            }
-
-//            System.out.println("Result: "+res);
+            res |= sign;
+            System.out.println("Result: "+res);
             return res;
         }
 
@@ -131,8 +140,15 @@ public class DivideNumbers {
 //        System.out.println(solution.divide(3, -2)==-1);
 //        System.out.println(solution.divide(3,  2)== 1);
 //        System.out.println(solution.divide(-2147483648, -1)==2147483647);
-        System.out.println(solution.divide(-2147483648, 2)==-1073741824);
+//        System.out.println(solution.divide(-2147483648, 2)==-1073741824);
 
+        System.out.println("-2147483648 / -2  = " + solution.divide(Integer.MIN_VALUE, -2 ));
+        System.out.println("-2147483648 >> 1= " + solution.divide(Integer.MIN_VALUE, -1 ));
+
+//        System.out.println("MAX_INT -2: " + (Integer.MAX_VALUE + ~(-2)));
+//        System.out.println("~-2147483648+1: " + (-2147483648-1));
+//        System.out.println("~(-2147483648+1): " + ~(-2147483648+1));
+//        System.out.println("~-1: " + ~-1);
     }
 
     public static void main(String [] args){
