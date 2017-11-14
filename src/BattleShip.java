@@ -8,6 +8,9 @@ public class BattleShip {
   public static class Solution {
 
     public int countBattleships(char[][] board) {
+      if (board.length == 0 || board[0].length == 0) {
+        return 0;
+      }
       int count = 0;
       for (int i = 0; i < board.length - 1; i++) {
         for (int j = 0; j < board[i].length - 1; j++) {
@@ -30,14 +33,15 @@ public class BattleShip {
           count++;
         }
       }
+
       if (board[last_i][last_j] == 'X') {
         count++;
       }
 
-    return count;
-  }
+      return count;
+    }
 
-}
+  }
 
   public static void main(String[] args) {
     char[][] board = {
