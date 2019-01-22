@@ -1,0 +1,15 @@
+
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó€·„8¿€ñ†-
+Dsquid:S2140")Use "java.util.Random.nextInt()" instead.(ÃÔâ88¿€ñ†-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(«ï›8¿€ñ†-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Û×ìÿÿÿÿÿ8¿€ñ†-
+[squid:S1226"?Introduce a new variable instead of reusing the parameter "l2".(®ëåà8¿€ñ†-
+rsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Û×ìÿÿÿÿÿ8¿€ñ†-
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(«ï›8¿€ñ†-
+8squid:S1220""Move this file to a named package.8¿€ñ†-
+‡"squid:ClassVariableVisibilityCheck"OMake val a static final constant or non-public and provide accessors if needed.(±õŞ—ùÿÿÿÿ8¿€ñ†-
+ƒ"squid:ClassVariableVisibilityCheck"PMake next a static final constant or non-public and provide accessors if needed.(½Ú˜8¿€ñ†-
+`squid:S1226"?Introduce a new variable instead of reusing the parameter "l1".(ÆÆ²“ıÿÿÿÿ8¿€ñ†-
+Esquid:S2140")Use "java.util.Random.nextInt()" instead.(¶ùÉÜ8¿€ñ†-

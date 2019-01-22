@@ -1,0 +1,68 @@
+
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Üû§ ıÿÿÿÿ8¿€ñ†-
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ç„¡ä8¿€ñ†-
+Vsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX8¿€ñ†-
+esquid:S1226"DIntroduce a new variable instead of reusing the parameter "divisor".(±ù³×úÿÿÿÿ8¿€ñ†-
+`squid:S1226"EIntroduce a new variable instead of reusing the parameter "dividend".(ú…ªA8¿€ñ†-
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¥æÏå8¿€ñ†-
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚùÈ,8¿€ñ†-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ß¢€8¿€ñ†-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç„¡ä8¿€ñ†-
+rsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(•€–¬ÿÿÿÿÿ8¿€ñ†-
+rsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(âÆ€ÿÿÿÿÿ8¿€ñ†-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ßÊĞú8¿€ñ†-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù—Àªüÿÿÿÿ8¿€ñ†-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä¶£Öüÿÿÿÿ8¿€ñ†-
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(‹Èä¦8¿€ñ†-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(½–Åøÿÿÿÿ8¿€ñ†-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÉËæıÿÿÿÿ8¿€ñ†-
+rsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(û‡ÍÖùÿÿÿÿ8¿€ñ†-
+8squid:S1220""Move this file to a named package.8¿€ñ†-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿¹ ÷8¿€ñ†-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(âÆ€ÿÿÿÿÿ8¿€ñ†-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Úú¡²8¿€ñ†-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(û‡ÍÖùÿÿÿÿ8¿€ñ†-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(•€–¬ÿÿÿÿÿ8¿€ñ†-
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑüË68¿€ñ†-
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¿¹ ÷8¿€ñ†-
+rsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ä¶£Öüÿÿÿÿ8¿€ñ†-
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ßÊĞú8¿€ñ†-
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ï–Ë8¿€ñ†-
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(°ù8¿€ñ†-
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(óı”Æ8¿€ñ†-
+esquid:S1226"DIntroduce a new variable instead of reusing the parameter "divisor".(ª€»âüÿÿÿÿ8¿€ñ†-
+lsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Ï–Ë8¿€ñ†-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ëå¯ïùÿÿÿÿ8¿€ñ†-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³ÈÒÙüÿÿÿÿ8¿€ñ†-
+rsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(½–Åøÿÿÿÿ8¿€ñ†-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥æÏå8¿€ñ†-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(óı”Æ8¿€ñ†-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰ÊÁÒ8¿€ñ†-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹Èä¦8¿€ñ†-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Úìèë8¿€ñ†-
+esquid:S1226"DIntroduce a new variable instead of reusing the parameter "divisor".(±ù³×úÿÿÿÿ8¿€ñ†-
+fsquid:S1226"EIntroduce a new variable instead of reusing the parameter "dividend".(…Òà‘ùÿÿÿÿ8¿€ñ†-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦·òÀşÿÿÿÿ8¿€ñ†-
+asquid:S1226"EIntroduce a new variable instead of reusing the parameter "dividend".(­·ì×8¿€ñ†-
+rsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(¦·òÀşÿÿÿÿ8¿€ñ†-
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(‰ÊÁÒ8¿€ñ†-
+`squid:S1226"DIntroduce a new variable instead of reusing the parameter "divisor".(¨µ£ü8¿€ñ†-
