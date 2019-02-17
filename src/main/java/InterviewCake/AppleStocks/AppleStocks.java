@@ -21,13 +21,21 @@ package InterviewCake.AppleStocks;
  *  No "shorting"—you need to buy before you can sell. Also, you can't buy and sell in the same time step—at least 1 minute has to pass.
  */
 public class AppleStocks {
-    
+  int [] prices;
     
   public AppleStocks(int [] prices) {
-      
+    this.prices = prices;
   }
   
   public int solution() {
-    return -1;
+    int max = Integer.MIN_VALUE;
+    for (int i = 0; i < this.prices.length - 1; i++){
+      for (int j = i+1; j < this.prices.length; j++) {
+        if (prices[j] - prices[i] > max) {
+          max = prices[j] - prices[i];
+        }
+      }
+    } 
+    return max;
   }
 }
