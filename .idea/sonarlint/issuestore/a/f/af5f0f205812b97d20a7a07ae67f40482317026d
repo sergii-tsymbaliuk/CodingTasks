@@ -1,14 +1,0 @@
-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ì°Øúúÿÿÿÿ8¾€ñ†-
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Úìèë8¾€ñ†-
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Úú¡²8¾€ñ†-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ü´ÿŒ8¾€ñ†-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ş‡‡8¾€ñ†-
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨ß¢€8¾€ñ†-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(àÜÔçÿÿÿÿÿ8¾€ñ†-
-8squid:S1220""Move this file to a named package.8¾€ñ†-
-Ysquid:S1226">Introduce a new variable instead of reusing the parameter "s".(Ò—	8¾€ñ†-
