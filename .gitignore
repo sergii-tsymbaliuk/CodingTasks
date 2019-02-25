@@ -1,3 +1,6 @@
 /out
 /test
-*.class/target
+*.class
+.idea/
+/.idea
+/target
