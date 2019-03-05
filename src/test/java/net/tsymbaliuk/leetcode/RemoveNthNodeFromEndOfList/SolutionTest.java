@@ -1,4 +1,4 @@
-package RemoveNthNodeFromEndOfList;
+package net.tsymbaliuk.leetcode.RemoveNthNodeFromEndOfList;
 
 import static org.junit.Assert.*;
 

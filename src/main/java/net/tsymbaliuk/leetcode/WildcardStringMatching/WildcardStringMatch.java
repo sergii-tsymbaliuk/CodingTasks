@@ -1,4 +1,4 @@
-package WildcardStringMatching;
+package net.tsymbaliuk.leetcode.WildcardStringMatching;
 
 public class WildcardStringMatch {
 

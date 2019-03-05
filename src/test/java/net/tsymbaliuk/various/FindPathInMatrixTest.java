@@ -1,9 +1,9 @@
-package net.tsymbliuk.various;
+package net.tsymbaliuk.various;
 
 import static org.junit.Assert.*;
 
 import java.util.Arrays;
-import net.tsymbliuk.various.FindPathInMatrix.Vertex;
+import net.tsymbaliuk.various.FindPathInMatrix.Vertex;
 import org.junit.Test;
 
 public class FindPathInMatrixTest {

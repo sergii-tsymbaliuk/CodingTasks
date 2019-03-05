@@ -1,4 +1,4 @@
-package net.tsymbliuk.leetcode;
+package net.tsymbaliuk.leetcode;
 
 import static org.junit.Assert.*;
 

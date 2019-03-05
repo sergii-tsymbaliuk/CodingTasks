@@ -2,5 +2,5 @@
 /test
 *.class
 .idea/
-/.idea
 /target
+/coding-tasks.iml

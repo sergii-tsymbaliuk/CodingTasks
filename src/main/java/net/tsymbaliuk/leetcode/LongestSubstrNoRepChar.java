@@ -1,3 +1,5 @@
+package net.tsymbaliuk.leetcode;
+
 import java.util.HashSet;
 
 /**

@@ -1,8 +1,8 @@
-package WildcardStringMatching;
+package net.tsymbaliuk.leetcode.WildcardStringMatching;
 
 import static org.junit.Assert.*;
 
-import static WildcardStringMatching.WildcardStringMatch.match;
+import static net.tsymbaliuk.leetcode.WildcardStringMatching.WildcardStringMatch.match;
 
 import org.junit.Test;
 

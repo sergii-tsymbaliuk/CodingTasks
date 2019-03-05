@@ -1,4 +1,4 @@
-package net.tsymbliuk.various;
+package net.tsymbaliuk.various;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -18,7 +18,6 @@ import java.util.Set;
 public class FindPathInMatrix {
   private final int height;
   private final int width;
-  private final int size;
   private final Vertex[] graph;
 
   static class Vertex implements Comparable<Vertex> {
@@ -74,8 +73,7 @@ public class FindPathInMatrix {
   public FindPathInMatrix(int[][] matrix) {
     height = matrix.length;
     width = matrix[0].length;
-    size = height * width;
-    graph = new Vertex[size];
+    graph = new Vertex[height * width];
     initVertexes(matrix);
     initEdges(matrix);
   }

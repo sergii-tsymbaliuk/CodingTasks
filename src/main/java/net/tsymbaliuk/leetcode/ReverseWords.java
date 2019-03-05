@@ -1,3 +1,5 @@
+package net.tsymbaliuk.leetcode;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;

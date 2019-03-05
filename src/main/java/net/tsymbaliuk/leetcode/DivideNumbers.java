@@ -1,4 +1,4 @@
-import java.util.HashSet;
+package net.tsymbaliuk.leetcode;
 
 /**
  * Created by stsym on 12/12/2016.

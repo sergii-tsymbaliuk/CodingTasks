@@ -1,3 +1,5 @@
+package net.tsymbaliuk.leetcode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {

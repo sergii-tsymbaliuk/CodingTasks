@@ -1,4 +1,4 @@
-package InterviewCake.AppleStocks;
+package net.tsymbaliuk.InterviewCake.AppleStocks;
 
 import static org.junit.Assert.*;
 import org.junit.Test;

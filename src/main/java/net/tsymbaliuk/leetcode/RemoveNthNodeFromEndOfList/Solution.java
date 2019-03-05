@@ -1,8 +1,6 @@
-package RemoveNthNodeFromEndOfList;
+package net.tsymbaliuk.leetcode.RemoveNthNodeFromEndOfList;
 
 import java.util.Arrays;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 class ListNode {
   int val;

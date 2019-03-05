@@ -1,4 +1,4 @@
-package DivideTwoIntegers;
+package net.tsymbaliuk.leetcode.DivideTwoIntegers;
 
 import static org.junit.Assert.*;
 

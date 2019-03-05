@@ -1,4 +1,4 @@
-package DivideTwoIntegers;
+package net.tsymbaliuk.leetcode.DivideTwoIntegers;
 
 class Solution {
   public int divide(int dividend, int divisor) {
@@ -55,8 +55,8 @@ class Solution {
       sb.append('-');
     }
 
-    for (int i = 0; i < result.length; i++){
-      sb.append(Long.toString(result[i]));
+    for (long aResult : result) {
+      sb.append(Long.toString(aResult));
     }
 
     long res = Long.valueOf(sb.toString());
