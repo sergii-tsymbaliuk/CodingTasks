@@ -1,6 +1,0 @@
-
-msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(’ιτ
-nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΡΠ8μίªχ†-
-ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€λν¨ωÿÿÿÿ8μίªχ†-
-Ksquid:S1481"*Remove this unused "l_pos" local variable.(€λν¨ωÿÿÿÿ8μίªχ†-
-csquid:S2259"BA "NullPointerException" could be thrown; "left" is nullable here.(±ΆΥ·ϋÿÿÿÿ8μίªχ†-

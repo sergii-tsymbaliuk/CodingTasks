@@ -1,8 +1,0 @@
-
-esquid:S1226"DIntroduce a new variable instead of reusing the parameter "divisor".(‡ÈŠÓÿÿÿÿÿ8úî³ò†-
-[squid:S1226"?Introduce a new variable instead of reusing the parameter "dd".(£‡º8úî³ò†-
-ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¿«ğşÿÿÿÿ8¶¨¯ò†-
-nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¶Şí8úî³ò†-
-Ysquid:S2130"8Use "Long.parseLong" for this string-to-long conversion.(ì³ÀÅùÿÿÿÿ8ˆ®Ôò†-
-tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ë²§‚8¿€ñ†-
-ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Üû§ ıÿÿÿÿ8ï¬åñ†-
