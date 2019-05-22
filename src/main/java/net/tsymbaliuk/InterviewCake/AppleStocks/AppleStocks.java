@@ -28,21 +28,23 @@ public class AppleStocks {
   }
   
   public int solution() {
-    return solutionSaveTwoMax();
+    return maxProfit(prices);
   }
   
-  private int solutionSaveTwoMax(){
-    int maxKeep = prices[1] - prices[0];
-    int maxStartOver = maxKeep;
+  public int maxProfit(int[] prices) {
+    if (prices.length < 2) return 0;
+    int maxProfit = 0;
+    int minPrice = prices[0];
     
-    for (int i = 2; i < this.prices.length; i++){
-      int startOver = prices[i] - prices[i - 1];
-      maxStartOver = Math.max(maxStartOver + startOver, startOver);
-      maxKeep = Math.max(maxKeep, maxKeep + startOver);
-      maxKeep = Math.max(maxKeep, maxStartOver);
+    for (int i = 1; i < prices.length; i++){
+      if (prices[i] < minPrice) { 
+        minPrice = prices[i];
+      } else {
+        maxProfit = (maxProfit > prices[i] - minPrice) ? maxProfit : prices[i] - minPrice;
+      }
     } 
-    return Math.max(maxKeep, maxStartOver);
-  }  
+    return maxProfit;
+  }
   
   private int solutionBruteForce(){
     int max = Integer.MIN_VALUE;
