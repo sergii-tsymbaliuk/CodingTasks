@@ -9,16 +9,19 @@ public class NQueens {
   static private class SolutionByLines {
 
     public List<List<String>> solveNQueens(int n) {
-      int[] queenRows;
-
+      int[] queens = new int[n]; // one queen per row
+      for (int i = 0; i < n; i++) {
+        queens[i] = i;
+      }
+      int currentQueen = 0;
+      while(true) {
+        break;
+      }
       return null;
     }
 
     public void helper(char[][] board, int row, int n) {
-      for (int col = 0; col < board[row].length; col++) {
-        // check turn is relevant
 
-      }
     }
 
     private boolean checkTurn(char[][] board, int row, int col) {
