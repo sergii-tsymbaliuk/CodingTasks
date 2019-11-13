@@ -1,3 +1,5 @@
+package net.tsymbaliuk.leetcode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,6 +9,14 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+ class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode(int x) { val = x; }
+ }
+
 class Solution {
   public int widthOfBinaryTree(TreeNode root) {
     int depth = findDepth(root, 0);
