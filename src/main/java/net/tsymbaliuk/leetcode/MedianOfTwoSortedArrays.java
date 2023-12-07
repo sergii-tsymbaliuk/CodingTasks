@@ -5,32 +5,37 @@ package net.tsymbaliuk.leetcode;
  * Median of two sorted arrays</a> on leetcode.
  */
 public class MedianOfTwoSortedArrays {
-  public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-    if (nums1.length > nums2.length) {
-      return findMedianSortedArrays(nums2, nums1);
+  public double findMedianSortedArrays(int[] input1, int[] input2) {
+    if (input1.length > input2.length) {
+      return findMedianSortedArrays(input2, input1);
     }
-    return hepler(nums1, nums2, 0, nums1.length - 1);
-  }
+    int x = input1.length;
+    int y = input2.length;
 
-  private double hepler(int[] nums1, int[] nums2, int l, int r) {
-    int med1 = (l + r) / 2;
-    int med2 = (nums1.length + nums2.length) / 2 - med1 - 1;
-    if (med2 >= 0 && med2 < nums2.length) {
-      // check is median
-      if (nums1[med1] < nums2[med2 + 1] && nums1[med1 + 1] < nums2[med2]) {
-        if ( (nums1.length + nums2.length) % 2 == 1) {
-          return nums2[med2];
+    int low = 0;
+    int high = x;
+    while (low <= high){
+      int partitionX = (low + high) / 2;
+      int partitionY = (x + y + 1) / 2 - partitionX;
+
+      int maxLeftX = (partitionX == 0) ? Integer.MIN_VALUE : input1[partitionX - 1];
+      int minRightX = (partitionX == x) ? Integer.MAX_VALUE : input1[partitionX];
+
+      int maxLeftY = (partitionY == 0) ? Integer.MIN_VALUE : input2[partitionY - 1];
+      int minRightY = (partitionY == y) ? Integer.MAX_VALUE : input2[partitionY];
+
+      if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
+        if ((x + y) % 2 == 0) {
+          return (Math.max(maxLeftX, maxLeftY) + Math.min(minRightX, minRightY)) / 2.0;
         } else {
-          return (nums1[med1] + nums2[med2]) / 2.0;
+          return Math.max(maxLeftX, maxLeftY);
         }
-      }
-      if (nums1[med1] > nums2[med2 + 1]) {
-        return hepler(nums1, nums2, l, med1);
+      } else if (maxLeftX > minRightY) {
+        high = partitionX - 1;
       } else {
-        return hepler(nums1, nums2, med1, r);
+        low = partitionX + 1;
       }
-    } else {
-      return nums1[med1];
     }
+    throw new IllegalArgumentException("Bad input");
   }
 }
