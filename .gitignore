@@ -1,7 +1,10 @@
+.idea/
+.gradle/
+gradle/
+build.gradle
 /out
 /test
 *.class
-.idea/
 /target
 /coding-tasks.iml
 .DS_Store
