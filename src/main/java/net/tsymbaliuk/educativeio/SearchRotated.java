@@ -1,10 +1,10 @@
 package net.tsymbaliuk.educativeio;
 
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
 public class SearchRotated {
-    private static final Logger log = LogManager.getLogger(SearchRotated.class);
+    private static final Logger log = LogManager.getLogManager().getLogger(SearchRotated.class.getSimpleName());
 
     static int binarySearchRotated(int[] arr, int key) {
         // TODO: Write - Your - Code
